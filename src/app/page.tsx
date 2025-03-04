@@ -20,7 +20,7 @@ export default async function Home() {
         </div>
       );
     }
-  } catch (error) {
+  } catch {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen">
         <h1 className="text-2xl font-bold mb-4">Ошибка</h1>
